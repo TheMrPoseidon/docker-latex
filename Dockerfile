@@ -6,4 +6,4 @@ RUN dnf update -y --setopt=tsflags=nodocs && \
     dnf clean all
 
 WORKDIR /data
-VOLUME ['/data']
+VOLUME ["/data"]
