@@ -1,4 +1,4 @@
-FROM fedora:36
+FROM fedora:42
 LABEL maintainer="Christian Himmler <christian@himmlers.de>"
 
 RUN dnf update -y --setopt=tsflags=nodocs && \
